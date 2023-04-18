@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94EC687429EE33EF00AE071A /* LoblollypineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EC687329EE33EF00AE071A /* LoblollypineApp.swift */; };
+		94EC687629EE33EF00AE071A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EC687529EE33EF00AE071A /* ContentView.swift */; };
+		94EC687829EE33F000AE071A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94EC687729EE33F000AE071A /* Assets.xcassets */; };
+		94EC687B29EE33F000AE071A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94EC687A29EE33F000AE071A /* Preview Assets.xcassets */; };
+		94EC688529EE33F000AE071A /* LoblollypineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EC688429EE33F000AE071A /* LoblollypineTests.swift */; };
+		94EC688F29EE33F000AE071A /* LoblollypineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EC688E29EE33F000AE071A /* LoblollypineUITests.swift */; };
+		94EC689129EE33F000AE071A /* LoblollypineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EC689029EE33F000AE071A /* LoblollypineUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94EC688129EE33F000AE071A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94EC686829EE33EF00AE071A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94EC686F29EE33EF00AE071A;
+			remoteInfo = Loblollypine;
+		};
+		94EC688B29EE33F000AE071A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94EC686829EE33EF00AE071A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94EC686F29EE33EF00AE071A;
+			remoteInfo = Loblollypine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94EC687029EE33EF00AE071A /* Loblollypine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loblollypine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94EC687329EE33EF00AE071A /* LoblollypineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoblollypineApp.swift; sourceTree = "<group>"; };
+		94EC687529EE33EF00AE071A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		94EC687729EE33F000AE071A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94EC687A29EE33F000AE071A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94EC688029EE33F000AE071A /* LoblollypineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoblollypineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94EC688429EE33F000AE071A /* LoblollypineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoblollypineTests.swift; sourceTree = "<group>"; };
+		94EC688A29EE33F000AE071A /* LoblollypineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoblollypineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94EC688E29EE33F000AE071A /* LoblollypineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoblollypineUITests.swift; sourceTree = "<group>"; };
+		94EC689029EE33F000AE071A /* LoblollypineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoblollypineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94EC686D29EE33EF00AE071A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EC687D29EE33F000AE071A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EC688729EE33F000AE071A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94EC686729EE33EF00AE071A = {
+			isa = PBXGroup;
+			children = (
+				94EC687229EE33EF00AE071A /* Loblollypine */,
+				94EC688329EE33F000AE071A /* LoblollypineTests */,
+				94EC688D29EE33F000AE071A /* LoblollypineUITests */,
+				94EC687129EE33EF00AE071A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94EC687129EE33EF00AE071A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94EC687029EE33EF00AE071A /* Loblollypine.app */,
+				94EC688029EE33F000AE071A /* LoblollypineTests.xctest */,
+				94EC688A29EE33F000AE071A /* LoblollypineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94EC687229EE33EF00AE071A /* Loblollypine */ = {
+			isa = PBXGroup;
+			children = (
+				94EC687329EE33EF00AE071A /* LoblollypineApp.swift */,
+				94EC687529EE33EF00AE071A /* ContentView.swift */,
+				94EC687729EE33F000AE071A /* Assets.xcassets */,
+				94EC687929EE33F000AE071A /* Preview Content */,
+			);
+			path = Loblollypine;
+			sourceTree = "<group>";
+		};
+		94EC687929EE33F000AE071A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				94EC687A29EE33F000AE071A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		94EC688329EE33F000AE071A /* LoblollypineTests */ = {
+			isa = PBXGroup;
+			children = (
+				94EC688429EE33F000AE071A /* LoblollypineTests.swift */,
+			);
+			path = LoblollypineTests;
+			sourceTree = "<group>";
+		};
+		94EC688D29EE33F000AE071A /* LoblollypineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94EC688E29EE33F000AE071A /* LoblollypineUITests.swift */,
+				94EC689029EE33F000AE071A /* LoblollypineUITestsLaunchTests.swift */,
+			);
+			path = LoblollypineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94EC686F29EE33EF00AE071A /* Loblollypine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94EC689429EE33F000AE071A /* Build configuration list for PBXNativeTarget "Loblollypine" */;
+			buildPhases = (
+				94EC686C29EE33EF00AE071A /* Sources */,
+				94EC686D29EE33EF00AE071A /* Frameworks */,
+				94EC686E29EE33EF00AE071A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Loblollypine;
+			productName = Loblollypine;
+			productReference = 94EC687029EE33EF00AE071A /* Loblollypine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94EC687F29EE33F000AE071A /* LoblollypineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94EC689729EE33F000AE071A /* Build configuration list for PBXNativeTarget "LoblollypineTests" */;
+			buildPhases = (
+				94EC687C29EE33F000AE071A /* Sources */,
+				94EC687D29EE33F000AE071A /* Frameworks */,
+				94EC687E29EE33F000AE071A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94EC688229EE33F000AE071A /* PBXTargetDependency */,
+			);
+			name = LoblollypineTests;
+			productName = LoblollypineTests;
+			productReference = 94EC688029EE33F000AE071A /* LoblollypineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94EC688929EE33F000AE071A /* LoblollypineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94EC689A29EE33F000AE071A /* Build configuration list for PBXNativeTarget "LoblollypineUITests" */;
+			buildPhases = (
+				94EC688629EE33F000AE071A /* Sources */,
+				94EC688729EE33F000AE071A /* Frameworks */,
+				94EC688829EE33F000AE071A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94EC688C29EE33F000AE071A /* PBXTargetDependency */,
+			);
+			name = LoblollypineUITests;
+			productName = LoblollypineUITests;
+			productReference = 94EC688A29EE33F000AE071A /* LoblollypineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94EC686829EE33EF00AE071A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					94EC686F29EE33EF00AE071A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					94EC687F29EE33F000AE071A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 94EC686F29EE33EF00AE071A;
+					};
+					94EC688929EE33F000AE071A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 94EC686F29EE33EF00AE071A;
+					};
+				};
+			};
+			buildConfigurationList = 94EC686B29EE33EF00AE071A /* Build configuration list for PBXProject "Loblollypine" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94EC686729EE33EF00AE071A;
+			productRefGroup = 94EC687129EE33EF00AE071A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94EC686F29EE33EF00AE071A /* Loblollypine */,
+				94EC687F29EE33F000AE071A /* LoblollypineTests */,
+				94EC688929EE33F000AE071A /* LoblollypineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94EC686E29EE33EF00AE071A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94EC687B29EE33F000AE071A /* Preview Assets.xcassets in Resources */,
+				94EC687829EE33F000AE071A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EC687E29EE33F000AE071A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EC688829EE33F000AE071A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94EC686C29EE33EF00AE071A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94EC687629EE33EF00AE071A /* ContentView.swift in Sources */,
+				94EC687429EE33EF00AE071A /* LoblollypineApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EC687C29EE33F000AE071A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94EC688529EE33F000AE071A /* LoblollypineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EC688629EE33F000AE071A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94EC688F29EE33F000AE071A /* LoblollypineUITests.swift in Sources */,
+				94EC689129EE33F000AE071A /* LoblollypineUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94EC688229EE33F000AE071A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94EC686F29EE33EF00AE071A /* Loblollypine */;
+			targetProxy = 94EC688129EE33F000AE071A /* PBXContainerItemProxy */;
+		};
+		94EC688C29EE33F000AE071A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94EC686F29EE33EF00AE071A /* Loblollypine */;
+			targetProxy = 94EC688B29EE33F000AE071A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		94EC689229EE33F000AE071A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94EC689329EE33F000AE071A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94EC689529EE33F000AE071A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Loblollypine/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chasefrederick.Loblollypine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94EC689629EE33F000AE071A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Loblollypine/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chasefrederick.Loblollypine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94EC689829EE33F000AE071A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chasefrederick.LoblollypineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Loblollypine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Loblollypine";
+			};
+			name = Debug;
+		};
+		94EC689929EE33F000AE071A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chasefrederick.LoblollypineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Loblollypine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Loblollypine";
+			};
+			name = Release;
+		};
+		94EC689B29EE33F000AE071A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chasefrederick.LoblollypineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Loblollypine;
+			};
+			name = Debug;
+		};
+		94EC689C29EE33F000AE071A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chasefrederick.LoblollypineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Loblollypine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94EC686B29EE33EF00AE071A /* Build configuration list for PBXProject "Loblollypine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94EC689229EE33F000AE071A /* Debug */,
+				94EC689329EE33F000AE071A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94EC689429EE33F000AE071A /* Build configuration list for PBXNativeTarget "Loblollypine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94EC689529EE33F000AE071A /* Debug */,
+				94EC689629EE33F000AE071A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94EC689729EE33F000AE071A /* Build configuration list for PBXNativeTarget "LoblollypineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94EC689829EE33F000AE071A /* Debug */,
+				94EC689929EE33F000AE071A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94EC689A29EE33F000AE071A /* Build configuration list for PBXNativeTarget "LoblollypineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94EC689B29EE33F000AE071A /* Debug */,
+				94EC689C29EE33F000AE071A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94EC686829EE33EF00AE071A /* Project object */;
+}
